@@ -7,5 +7,8 @@
 
 */
 
-const name = prompt('come ti chiami?');
-console.log(name);
+const name = prompt('Come ti chiami?');
+const surname = prompt('Quale è il tuo cognome?');
+
+console.log(name, surname);
+
