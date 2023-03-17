@@ -11,7 +11,14 @@ const name = prompt('Come ti chiami?');
 const surname = prompt('Quale è il tuo cognome?');
 const favouriteColor = prompt('Quale è il tuo colore preferito?');
 const password = name + surname + favouriteColor + 23;
+
 console.log(name, surname, favouriteColor, password);
 
+const yourPassword =`
+La tua password è: <br>
+ ${password}
+`
+console.log(yourPassword);
 
 
+document.getElementById('generatedPassword').innerHTML = yourPassword;
